@@ -1,0 +1,14 @@
+---
+layout: page
+title: "My collections"
+permalink: my_collections/
+group: navigation
+---
+{% include JB/setup %}
+
+{% for my_col in site.collections %}
+{{my_col | Inspect}}
+<h2>{{my_col.title}}</h2>
+{{my_col.content}}
+{% endfor %}
+
