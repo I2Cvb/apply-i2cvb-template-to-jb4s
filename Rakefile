@@ -3,6 +3,11 @@ require 'rake'
 require 'yaml'
 require 'time'
 
+require "tmpdir"
+require "bundler/setup"
+require "jekyll"
+require "jekyll/scholar"
+
 SOURCE = "."
 CONFIG = {
   'version' => "0.3.0",
@@ -323,7 +328,7 @@ task :publish => [:generate] do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
     # system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git remote add origin /home/sik/Work/escola/recerca/i2cvb-web/mergin_all/test/"
+    system "git remote add origin /home/sik/Work/escola/recerca/i2cvb-web/merging_all/test/"
     system "git push origin master:refs/heads/gh-pages --force"
 
     Dir.chdir pwd
