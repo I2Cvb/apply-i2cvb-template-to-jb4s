@@ -6,8 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-{% for my_col in site.collections %}
-{{my_col | Inspect}}
+{% for my_col in site.my_collections %}
 <h2>{{my_col.title}}</h2>
 {{my_col.content}}
 {% endfor %}
