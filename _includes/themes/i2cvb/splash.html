@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% include themes/i2cvb/head.html %}
+    </head>
+
+    <body>
+
+        <div id="wrap">
+
+            <!-- header with navigation bar, etc.. -->
+            {% include themes/i2cvb/masthead.html %}
+
+            <!-- main elements -->
+           {{content}}
+
+        </div> <!-- End div wrap -->
+
+        <!-- foot -->
+        {% include themes/i2cvb/footer.html %}
+
+        <!-- backend elements -->
+        {% include JB/analytics %}
+        {% include themes/i2cvb/script_loader.html %}
+
+    </body>
+</html>

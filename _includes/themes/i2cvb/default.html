@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% include themes/i2cvb/head.html %}
+    </head>
+
+    <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+    <body id="page-top" data-spy="scroll" data-target="">
+
+        <!-- header with navigation bar, etc.. -->
+        {% include themes/i2cvb/masthead.html %}
+
+        <div class="container-fluid container-body">
+            <div class="row">
+
+                <div class="left-side-bar col-sm-2">
+                </div> <!-- End left-side-bar -->
+
+                <div class="main-body col-sm-8">
+                    {{content}}
+                </div><!-- End main body -->
+
+                <div class="right-side-bar col-sm-2">
+                    <!-- <% #include themes/i2cv/xxx.html %> -->
+                </div> <!-- End right-side-bar -->
+
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+
+
+            <!-- foot -->
+            {% include themes/i2cvb/footer.html %}
+
+            <!-- backend elements -->
+            {% include JB/analytics %}
+            {% include themes/i2cvb/script_loader.html %}
+
+    </body>
+</html>

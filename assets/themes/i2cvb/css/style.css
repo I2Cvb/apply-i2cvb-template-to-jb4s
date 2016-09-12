@@ -1,0 +1,164 @@
+/* Custom container */
+
+/* Replaced with normal container and standard footer */
+/*.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+*/
+
+/* Replaced with standard BS3 Navbar */
+/*.navbar .nav {
+  float: right; }*/
+
+.page-mk-style body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #333333;
+    background:#eef1fb;
+    font-size: 11.5pt;
+    font-weight: 300;
+    line-height:1.5em;
+    padding:1em;
+    max-width:42em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.page-mk-style a{ color: #f46f1b; text-decoration:none;}
+.page-mk-style a:visited{ color: #f46f1b; }
+.page-mk-style a:hover{ color: #06e; }
+.page-mk-style a:active{ color:#faa700; }
+.page-mk-style a:focus{ outline: thin dotted; }
+.page-mk-style a:hover, a:active{ outline: 0; }
+
+.page-mk-style ::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+.page-mk-style ::selection{background:rgba(255,255,0,0.3);color:#000}
+
+.page-mk-style a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+.page-mk-style a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+.page-mk-style p{
+    margin:1em 0;
+}
+
+.page-mk-style img{
+    max-width:100%;
+}
+
+.page-mk-style h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    color: #f46f1b;
+    line-height:1em;
+}
+.page-mk-style h4,h5,h6{ font-weight: bold; }
+.page-mk-style h1{ font-size:2.5em; }
+.page-mk-style h2{ font-size:2em; }
+.page-mk-style h3{ font-size:1.5em; }
+.page-mk-style h4{ font-size:1.2em; }
+.page-mk-style h5{ font-size:1em; }
+.page-mk-style h6{ font-size:0.9em; }
+
+.page-mk-style h1{
+    color: #333333;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.page-mk-style h2{
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f4c7ab;
+    width: 150px;
+}
+
+.page-mk-style blockquote{
+    color:#666666;
+    margin:0;
+    padding-left: 3em;
+    border-left: 0.5em #EEE solid;
+}
+.page-mk-style hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+.page-mk-style pre, code, kbd, samp { color: #000; font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 0.98em; }
+.page-mk-style pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+.page-mk-style b, strong { color: #f46f1b; font-weight: bold; }
+
+.page-mk-style dfn, em { color: #f46f1b; font-style: italic; }
+
+.page-mk-style ins { background: #ff9; color: #000; text-decoration: none; }
+
+.page-mk-style mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+.page-mk-style sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+.page-mk-style sup { top: -0.5em; }
+.page-mk-style sub { bottom: -0.25em; }
+
+.page-mk-style ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+.page-mk-style li p:last-child { margin:0 }
+.page-mk-style dd { margin: 0 0 0 2em; }
+
+.page-mk-style img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+.page-mk-style table { border-collapse: collapse; border-spacing: 0; }
+.page-mk-style td { vertical-align: top; }
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
